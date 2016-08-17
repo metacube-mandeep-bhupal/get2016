@@ -1,5 +1,5 @@
 /*Display all the columns of table members*/
-SELECT member_id,member_nm,addressline1,addressline2,category FROM members;
+SELECT * FROM members;
 
 /*Display the selected columns from members*/
 SELECT member_id,member_nm,category FROM members;
