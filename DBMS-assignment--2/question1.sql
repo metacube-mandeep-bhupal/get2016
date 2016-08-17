@@ -1,3 +1,13 @@
+/*Display all the columns of table members*/
+SELECT member_id,member_nm,addressline1,addressline2,category FROM members;
+
+/*Display the selected columns from members*/
+SELECT member_id,member_nm,category FROM members;
+
+/*Displays details of the row that posses category "F" available in table members*/
+SELECT member_id,member_nm,category FROM members
+where category = "F";
+
 /*Displays distinct types of categories a available in category column of members */
 SELECT DISTINCT category FROM members;
 
