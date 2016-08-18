@@ -20,9 +20,9 @@ ORDER BY member_nm DESC;
 SELECT  t.title_id,t.title_nm,s.subject_id,p.publisher_id
 FROM titles t
 LEFT JOIN subjects s
-ON t.title_id = s.subject_id
+ON t.subject_id = s.subject_id
 LEFT JOIN publishers p
-ON t.title_id = p.publisher_id;
+ON t.publisher_id = p.publisher_id;
 
 /* Displays the number of members present in each category. Output includes category and number of members belonging to that category.*/
 SELECT category, COUNT(*) FROM members GROUP BY category;
