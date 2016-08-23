@@ -2,8 +2,7 @@
 USE library;
 
 /* To display total number of students, total number of faculty and total number of others in library information system in a single row */
-SELECT GROUP_CONCAT(m.category) AS 'Category', GROUP_CONCAT(m.count_value) AS 'Count'
-    FROM (SELECT category, COUNT(member_id) AS count_value FROM members GROUP BY category) AS m;
+
 
 /* To display the information of those titles that have been issued more than 2 times */
 SELECT t.title_id AS 'Title Id', t.title_nm AS 'Title Name', t.subject_id AS 'Subject Id', t.publisher_id AS 'Publisher Id',b.accession_no AS 'Book Id' FROM titles t 
