@@ -23,5 +23,5 @@ SELECT a.author_id AS 'Author Id', a.author_name AS 'Author Name'
     FROM authors a
     INNER JOIN title_author ta ON a.author_id = ta.author_id
     INNER JOIN books b ON ta.title_id = b.title_id
-    WHERE b.status LIKE 'p%'
-    GROUP BY a.author_id HAVING COUNT(b.accession_no) > 0;
+    /*WHERE b.status LIKE 'p%'
+    GROUP BY a.author_id HAVING COUNT(b.accession_no) > 0;*/
