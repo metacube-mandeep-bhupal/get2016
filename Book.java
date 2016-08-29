@@ -1,6 +1,6 @@
 package assignment1;
 
-public class Pojo {
+public class Book {
 
 	private String name;
 	private String publisher;
