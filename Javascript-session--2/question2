@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="pyramid()">
+<p id="pattern">The pattern is as follows:</p>
+<script type="text/javascript">
+function pyramid(){
+var num=parseInt(prompt("enter the no. of levels of pyramid:","pyramid"));
+var str="hello";
+var i=1;
+j=1;
+var str="";
+for(i=1;i<=num;i++)
+{
+	for(j=num-i;j>0;j--)
+		{
+		str+="&nbsp";
+		}
+	for(j=1;j<=2*i-1;j++)
+		str+="*";
+	
+	str+="<br/>";
+}
+
+document.getElementById("pattern").innerHTML=str;
+}
+</script>
+
+</body>
+</html>
