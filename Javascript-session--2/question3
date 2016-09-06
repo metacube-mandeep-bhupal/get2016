@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="table()">
+
+<script type="text/javascript">
+function table(){
+var num=parseInt(prompt("enter the no. whose table needs to be displayed:", "table"));
+i=1;
+str="";
+for(;i<=10;i++)
+{
+	str+=num+" * "+i+" = "+(num*i);
+	str+="<br/>"
+}
+//document.getElementById("table").innerHTML=str;
+var para=document.createElement("P");
+document.body.appendChild(para);
+para.innerHTML=str;
+}
+</script>
+
+</body>
+</html>
