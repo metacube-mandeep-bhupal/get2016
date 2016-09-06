@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="findVowelOrConsonant()">
+<script type="text/javascript">
+function findVowelOrConsonant()
+{
+var charctr=prompt("Enter a character : ", "character");
+flag=0;
+switch(charctr){
+case 'a': flag=1;break;
+case 'e': flag=1;break;
+case 'i': flag=1;break;
+case 'o': flag=1;break;
+case 'u': flag=1;} 
+
+if(flag==1)
+	window.alert(ch+" is a vowel")
+else
+	window.alert(charctr+" is a consonant");
+}
+</script>
+
+</body>
+</html>
