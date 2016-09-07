@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>
+Chart
+</title>
+
+<style>
+#box{
+	display:inline-block;
+	margin-left:10px;
+}
+</style>
+
+<script type='text/javascript'>
+var num1 = parseInt(prompt("enter no. 1:","no.1"));
+var num2 = parseInt(prompt("enter no. 2:","no.2"));
+var num3 = parseInt(prompt("enter no. 3:","no.3"));
+var num4 = parseInt(prompt("enter no. 4:","no.4"));
+
+function fnPrintChart(){	
+ 
+
+	
+	var numArr = [num1,num2,num3,num4];
+	var charArr = ["A","B","C","D"];
+	var result="";
+	var max=Math.max(num1,num2,num3,num4);
+	
+	
+	for(index=0 ; index<4 ; index++){
+		result+="<div id=box>"
+		
+		for(col=0;col<(max-numArr[index]);col++){
+			result+="&nbsp "+"<br/>";
+		}
+		
+		for(row=0;row<numArr[index];row++){
+			result+="* <br/>"
+		}
+		result+=charArr[index]+"<br/>";
+		result+="</div>"
+	}
+		document.getElementById("result").innerHTML=result;
+}
+</script>
+
+</head>
+<body>
+	
+	
+	<input type="button" value="Print the chart" onclick="fnPrintChart()" >
+	
+	</form>
+	<div id="result" style="clear:both;"></div>
+</body>
+</html>
