@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+function fn(){
+	if(document.getElementById('r1').checked==true)
+		alert(document.getElementById('dd1').value);
+	else if(document.getElementById('r2').checked==true)
+		alert(document.getElementById('dd2').value);
+	
+}
+</script>
+</head>
+<body>
+<select id="dd1">
+<option selected>INDIA</option>
+<option>USA</option>
+<option>AUSTRALIA</option>
+<option>SINGAPORE</option>
+</select>
+
+<input type="radio" id="r1" name="radio1" onclick="fn()"/>Display dropdown 1<br/><br/>
+
+<select id="dd2">
+<option selected>UK</option>
+<option>SWITZERLAND</option>
+<option>IRELAND</option>
+<option>FRANCE</option>
+</select>
+
+<input type="radio" id="r2" name="radio1" onclick="fn()"/>Display dropdown 2<br/><br/>
+</body>
+</html>
