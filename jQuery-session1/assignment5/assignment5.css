@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+body{
+    color:black;
+    font-weight:bold;
+    background-color:antiquewhite;
+    padding:3%;
+    font-size:30px;
+}
+#ancestors,#greatGrandParent,#grandParent1,#grandParent2,#directParent1,#directParent2{
+    background-color:blanchedalmond;
+    border:solid;
+    padding:1% 3% 3% 3%;
+    border-radius:100px;
+    text-align:center;
+}
+#grandParent1,#grandParent2{
+    margin:4%;
+}
+p{
+    background-color:coral;
+    padding-bottom:3%;
+    border-radius:100px;
+    border:solid;
+}
+
+button{
+    display:inline-block;
+    width:300px;
+    border-radius:15px;
+    margin:10px;
+    height:50px;
+}
