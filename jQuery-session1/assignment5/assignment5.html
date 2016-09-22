@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Parent-Child Relation</title>
+        <link rel="stylesheet" href="assignment5.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="assignment5.js"></script>
+    </head>
+    <body>
+        <div id="ancestors">Ancestor
+            <div id="greatGrandParent">Great GrandParent1
+                <div id="grandParent1">GrandParent1
+                    <div id="directParent1">Direct Parent1
+                        <p>Paragraph1</p>
+                    </div>
+                </div>
+                 <div id="grandParent2">GrandParent2
+                    <div id="directParent2">Direct Parent2
+                        <p>Paragraph2</p>
+                    </div>
+                </div>
+            </div>
+            <button id="button1" type="button">HighLight the Parent of Grand Parent 1</button>
+            <button id="button2" type="button">HighLight all ancestors of Direct Parent 1</button>
+            <button id="button3" type="button">HighLight the closest div near Direct Parent 1</button>
+            <button id="button4" type="button">HighLight the siblings of Grand Parent 1</button>
+        </div>
+    </body>
+</html>
