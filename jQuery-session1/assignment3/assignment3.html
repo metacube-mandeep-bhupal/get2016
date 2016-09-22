@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Select Operations</title>
+        <link rel="stylesheet" href="assignment3.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="assignment3.js"></script>
+    </head>
+    <body>
+        
+        <!--All span related statements-->
+        <div id="block1">
+            <span class="message">Selects all SPAN with class name: message</span><br>
+            <span class="info">Text to select all span with class info</span><br>
+            <span class="message">Selects all SPAN with class name: message</span><br>
+            <button id="button1" type="button">Selects all SPAN with class name: message</button><br>
+        </div>
+        
+        
+        <!--All div related statements-->
+        <div id="block2">
+            <div id="myDiv"><span class="info">all the SPAN having info class in a DIV with id = myDiv</span></div><br>
+            <div id="myDiv"><span class="info">all the SPAN having info class in a DIV with id = myDiv</span></div><br>
+            <div id="myDiv"><span class="alter">all the SPAN having alter class in a DIV with id = myDiv</span></div> <br>
+            <div class="box error"><p>Selects all the DIVS having both box and error class.</p></div><br>
+            <div class="error"><p>Selects all the DIVS having error class.</p></div><br>
+            <div class="box"><p>Selects all the DIVS having box class.</p></div><br>
+            <div class="box error"><p>Selects all the DIVS having both box and error class.</p></div><br>
+            <div class="box error"><p>Selects all the DIVS having both box and error class.</p></div><br>
+            <div class="error" ><p>Selects all the DIVS having error class.</p></div><br>
+            <button id="button8" type="button">Selects all the DIVS having either box or error class.</button><br>
+            <button id="button10" type="button">Find all the SPAN having info class in a DIV with id = myDiv</button><br>
+            <button id="button9" type="button">Selects all the DIVS having both box and error class.</button><br>
+            <button id="button2" type="button">Selects first DIV in a document that has class: box</button><br>
+        </div>
+            
+        <!--All image related statements-->
+        <div id="block3">
+            <img src="html5.png" height= "150" alt="hello"><br>
+            <img src="html5.png" height= "150" alt="nohello"><br>
+            <img src="html5.png" height= "150" alt="hello"><br>
+            <button id="button4" type="button">Selects all IMAGES having alternate text as: hello</button><br>
+        </div>
+        
+        <div id="block4">
+            <div id="myDiv"><INPUT TYPE  = "text" name = "tx hello" placeholder="txt hello1"/></div><br><br>
+            <div id="myDiv2"><INPUT TYPE  = "text" name = "txt" placeholder="txt"/></div><br><br>
+            <INPUT TYPE  = "text" name = "Enter Number"/><br>
+            <button id="button5" type="button">Selects all TEXT BOXES under a div having Id = myDiv</button><br>
+            <button id="button6" type="button">Selects all TEXT BOXES with name starting by: txt</button><br>
+        </div>
+        
+        <!--All button related statements-->
+        <div id="block5">
+            <button id="buttons" type="button">Submit1</button><br>
+            <button id="buttons" type="button">Submit2</button><br>
+            <button id="buttons" type="button">Submit3</button><br>
+            <button id="buttons" type="button">Submit4</button><br>
+            <button id="buttons" type="button">Submit5</button><br>
+            <button id="button3" type="button">Selects all BUTTONS in a document</button><br>
+        </div>
+        
+        <!--All paragraph related statements-->
+        <div id="block6">
+        <p class="box">This is a paragraph with box</p><br>
+        <p>This is a paragraph without class box</p><br>
+        <p class="box">This is a paragraph with box</p><br>
+        <button id="button7" type="button">Selects all PARAGRAPHS element, not having class box</button><br>
+        </div>
+    </body>
+</html>
