@@ -1,0 +1,29 @@
+{
+    "Vivek" : {
+        "Name" : "Vivek",
+        "Email" : "vivek.mittal@gmail.com",
+        "DOB" : "29/11/1994",
+        "Address" : "Mansarovar"
+    },
+    
+    "Rahul" : {
+        "Name" : "Rahul",
+        "Email" : "rahul.gupta@gmail.com",
+        "DOB" : "30/05/1997",
+        "Address" : "Vaishali Nagar"
+    },
+    
+    "Anshu" : {
+        "Name" : "Anshu",
+        "Email" : "anshu.agarwal@gmail.com",
+        "DOB" : "13/12/1998",
+        "Address" : "Jhotwara"
+    },
+    
+    "Shashi" : {
+        "Name" : "Shashi",
+        "Email" : "Shashi.sharma@gmail.com",
+        "DOB" : "01/01/1991",
+        "Address" : "Sitapura"
+    }
+}
