@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color:darkcyan;
+    background-color:blanchedalmond;
+    padding-top:20%;
+}
+
+#block{
+    border:solid;
+    position:relative;
+    width:3%;
+    padding:2%;
+    margin-bottom:5%;
+    background-color:antiquewhite;
+}
+
+#buttons{
+    width:10%;
+    background-color:blanchedalmond;
+}
+
+button{
+    width:80%;
+    margin:2%;
+}
+#buttons,button,#block{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    border-radius:15px;
+}
