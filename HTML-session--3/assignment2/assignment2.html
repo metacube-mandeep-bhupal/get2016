@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<head>
+	<script type="text/javascript"
+     src="https://maps.googleapis.com/maps/api/js?sensor=false">
+   </script>
+		<script>
+		
+			function getLocation() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(showPosition);					
+				} else {
+			document.getElementById("show").innerHTML = "Geolocation is not supported by this browser.";
+				}
+			}
+			function showPosition(position) {
+				document.getElementById("show").innerHTML = "Latitude: " + position.coords.latitude + 
+						"<br>Longitude: " + position.coords.longitude; 
+						var latlon = position.coords.latitude + "," + position.coords.longitude;
+						var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
+								+latlon+"&zoom=14&size=400x300&sensor=false";
+						document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="buttons"  >
+			<input type="button" value="Click me" onclick="getLocation()">
+		</div>
+		
+		<div id="show">
+			
+		</div>
+		<div id="mapholder">
+		
+		</div>
+	</body>
+</html>
