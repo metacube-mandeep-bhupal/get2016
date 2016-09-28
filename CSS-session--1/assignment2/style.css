@@ -1,0 +1,236 @@
+.header{
+	background-color:rgb(43,61,81);
+	overflow : hidden;
+	color : white;
+	padding: 10px 20px;
+	font-family: Verdana;
+}
+
+.logo{
+	float : left;
+}
+
+.nav{
+	float : right;
+	font-family: Verdana;
+}
+.nav a{
+	color : white;
+	text-decoration : none;
+}
+
+.nav ul{
+	list-style : none;
+	display: inline-block;
+}
+
+.nav li{
+	display: inline-block;
+	color : rgb(0,137,217) ;
+	padding: 0px 16px;
+}
+
+.nav li:hover{
+	color : white;
+}
+
+.slider{
+		text-align: center;
+		background-color: rgb(0, 137, 217);
+		text-transform: uppercase;
+		padding: 108px 0px;
+		font-family: Verdana;
+	
+}
+
+.boldtext {
+	border: 2px solid white;
+	display: inline-block;
+	font-size: 45px;
+	padding: 25px 70px;
+	color: white;
+	border-radius: 5px;
+}
+.sliderpara {
+	color : white;
+	font-size: 16px;
+	
+}
+
+.sliderbutton {
+	background-color : white;
+	color :rgb(0, 137, 217);
+	border-radius: 5px;
+	font-size: 15px;
+}
+.firstsection{
+	padding: 25px 0px;
+	clear : both;
+	font-family: Verdana;
+}
+
+.sectionheader{
+	text-transform: uppercase;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.boxicon {
+	margin-right: 5px;
+}
+.boxhead{
+	color : rgb(0,137,217) ;
+	padding: 0px 10px;
+	font-weight: 600;
+}
+
+.boxpara{
+	padding: 0px 10px;
+}
+.sectionbox{
+	width : 25%;
+	float: left;
+	padding: 10px 0px;
+}
+.secondsection{
+	
+	background-color:rgb(43,61,81);
+	clear : both;
+	overflow: hidden;
+	padding: 30px 0px;
+	font-family: Verdana;
+}
+
+.sectionicon{
+	font-size: 90px;
+}
+
+.leftsection {
+	width : 35%;
+	float : left ;
+	text-align: center;
+}
+
+.rightsection {
+	width : 65%;
+	padding: 5px 0px;
+	color : white;
+	float: left;
+}
+
+.rhead {
+	    font-size: 19px;
+    font-weight: bold;
+	text-transform : uppercase;
+	padding: 0px 30px;
+}
+
+.rpara {
+	    font-size: 13px;
+		padding: 0px 30px;
+}
+.thirdsection{
+	overflow : hidden;
+	padding: 0px 25px;
+	font-family: Verdana;
+}
+
+.leftformsection{
+	width : 35%;
+	float: left;
+	
+}
+
+.rightformsection{
+	width : 65%;
+	float: left;
+	
+}
+
+
+
+.formlabel{
+	display: block;
+	font-weight: 600;
+	margin: 10px 0px;
+}
+
+.formtext {
+	width: 98%;
+}
+
+.contactpara{
+	padding: 0px 25px;
+}
+
+.infopara{
+	padding: 0px 25px;
+}
+
+.parahead{
+	font-size: 17px;
+    font-weight: 600;
+}
+
+.submitbtn{
+	background-color: rgb(0, 137, 217);
+    border-radius: 5px;
+    color: white;
+}
+
+.formbtn{
+	    margin: 7px 0px;
+}
+.footer{
+	
+	background-color:rgb(43,61,81);
+	color : white;
+	text-align : center;
+	font-family: Verdana;
+}
+
+.footerpara{
+	    padding: 15px 0px;
+}
+
+@media only screen and (max-width: 690px) {
+	.sectionbox{
+	width : 50%;
+	float: left;
+	padding: 10px 0px;
+}
+
+.leftsection{
+	width : 100%;
+	float: left;
+	
+}
+
+.rightsection{
+	width : 100%;
+	float: left;
+	
+}
+
+.leftformsection{
+	width : 100%;
+	float: left;
+	
+}
+
+.rightformsection{
+	width : 100%;
+	float: left;
+	
+}
+
+.logo {
+	float : none;
+    text-align: center;
+}
+
+.nav{
+	float : none ;
+	text-align : center;
+}
+}
