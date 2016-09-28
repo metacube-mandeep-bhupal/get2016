@@ -1,0 +1,51 @@
+.simplediv{
+	width : 100px;
+	height : 100px;
+	background-color : red;
+	margin : 25px;
+	
+}
+
+.nav{
+	background-color: rgb(76,175,80);
+}
+.rotatediv{
+	-moz-transition: all 1s ease;  /** for firefox*/
+	-webkit-transition: all 1s ease;   /** for webkit*/
+	transition: all 1s ease;		/** standard*/
+}
+
+.rotatediv:hover {
+	transform: translate(200px);
+	 transform: rotate(360deg);
+}
+
+.scalediv{
+	-moz-transition: all 1s ease;  /** for firefox*/
+	-webkit-transition: all 1s ease;   /** for webkit*/
+	transition: all 1s ease;		/** standard*/
+}
+
+.scalediv:hover {
+	 transform: scale(2,2);
+}
+
+.skewdiv{
+	-moz-transition: all 1s ease;  /** for firefox*/
+	-webkit-transition: all 1s ease;   /** for webkit*/
+	transition: all 1s ease;		/** standard*/
+}
+
+.skewdiv:hover {
+	 transform: skew(20deg,20deg);
+}
+
+.translatediv{
+	-moz-transition: all 1s ease;  /** for firefox*/
+	-webkit-transition: all 1s ease;   /** for webkit*/
+	transition: all 1s ease;		/** standard*/
+}
+
+.translatediv:hover {
+	 transform: translate(200px);
+}
