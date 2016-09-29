@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+#wrapper {
+	background-image: url("http://goo.gl/e8bK7O");
+}
+
+#container {
+	margin: 10px 10px 10px 10px;
+	background-color: white;
+}
+
+#header {
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	background: #afd1ed;
+	position: relative;
+}
+
+#nav {
+	background: #aaafff;
+	text-align: left;
+	padding: 10px;
+}
+
+#bodyContent {
+	display: inline-block;
+	background-colour: white;
+	padding: 10px;
+}
+
+#leftPart {
+	display: inline;
+	float: left;
+	width: 20%;
+	border-radius: 15px;
+}
+
+#leftPart .boundary {
+	padding: 10px;
+	background-color: #ff8040;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: justify;
+}
+
+#leftPart .boundary .menuHead {
+	font-weight: bold;
+	list-style: none;
+	background: #cce6fc;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+#leftPart .boundary ul li {
+	list-style: none;
+}
+
+#leftPart .boundary .textBlock {
+	background-color: #cce6fc;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#inner {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	text-align: justify;;
+	width: 50%;
+	float: left;
+}
+
+#inner .img {
+	display: block;
+}
+
+#p {
+	text-decoration: 40px;
+	text-align: left;
+}
+
+#rightPart {
+	display: inline-block;
+	float: left;
+	width: 25%; border-radius : 15px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#rightPart .boundary {
+	padding: 10px;
+	background-color: #ff8040;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: justify;
+}
+
+#rightPart .boundary h3 {
+	background-color: #cce6fc;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#rightPart .boundary ul li {
+	list-style: none;
+	background: #ff8040;
+	text-align: center;
+}
+
+#container .align {
+	text-align: center;
+	font-weight: bold;
+}
+
+#container .links ul li{
+	text-align: center;
+	font-weight: bold;
+	list-style: none;
+}
