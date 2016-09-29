@@ -1,0 +1,45 @@
+#wrapper {
+    width: auto;
+    margin: auto;
+    height: 1%;
+    overflow: hidden;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    padding-right: 25px;
+}
+
+#container {
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+}
+
+#leftNav {
+    width: 30%;
+    float: left;
+}
+#inner {
+    width: 70%;
+    position: relative;
+    float: left;
+}
+#header {
+    width: 100%;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background: #AED1ED;
+}
+#header .Staffs {
+    float: right;
+    color: #666666;
+    font-weight:bold;
+    font-size: 20px;
+    position: relative;
+    right: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
