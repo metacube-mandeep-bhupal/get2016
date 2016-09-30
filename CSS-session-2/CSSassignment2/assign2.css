@@ -1,0 +1,186 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	min-width: 600px;
+}
+
+#wrapper {
+	background-image: url("images\image.jpg");
+}
+
+#container {
+	margin: 10px 10px 10px 10px;
+	background-color: white;
+}
+
+#header {
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	background: #121212;
+}
+
+#header .SiteHead a {
+	display: inline-block;
+	width: 85%;
+	text-decoration: none;
+	float: left;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+}
+
+#header .HeadLink a {
+	display: inline;
+	width: 5%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	list-style: none;
+	margin-left: 9px;
+}
+
+#block1 {
+	height: 500px;
+	width: 100%;
+	background-color: #0080ff;
+	text-align: center;
+}
+
+#bigBoldText {
+	display: block;
+	font-size: 40px;
+	float: left;
+	border: solid;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 2%;
+	margin: 7% 25% 0% 30%;
+}
+
+#block1 p {
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 25px;
+}
+
+#block1 input[type="button"] {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	width: initial;
+	margin-left: 3px;
+	background-color:white;
+	color:#0080ff;
+	border-radius: 5px;
+}
+
+#container .align {
+	text-align: center;
+	font-weight: bold;
+	background-color: Blue;
+	color: white;
+}
+
+#block2 {
+	height: 5em;
+	position: relative
+}
+
+#block2 p {
+	font-weight:bold;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	color: black;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+#table1 {
+	color: black;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#table1 th {
+	color: blue;
+}
+
+#block3 {
+	height: 10em;
+	position: relative;
+	background-color: #40454d;
+}
+
+#leftSection {
+	display: inline-block;
+	width: 10%;
+	float: left;
+	display: flex;
+	padding: 10px;
+	margin-left: 15%;
+	height: 100px;
+}
+
+#leftSection .img {
+	margin-top:25px;
+	width: 80%;
+}
+
+#rightSection {
+	width: 55%;
+	padding-right: 30px;
+	float: right;
+}
+
+#bodyContent {
+	display: inline-block;
+	background-colour: white;
+	width: 100%;
+	color:black;
+}
+
+#SignUpForm{
+	margin-left:5%;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	border-radius: 15px;
+}
+#SignUpForm input{
+	padding:.5%;
+	width:80%;
+	border-radius:3px;
+	box-shadow: 1px 1px 1px black;
+}
+#SignUpForm input[type="button"] {
+	width: 100px;
+	background-color:#0080ff;
+	color:white;
+	border-radius: 5px;
+}
+
+#Contacts {
+	display: block;
+	float: left;
+	width: 50%;
+	border-radius: 15px;
+}
+
+#footer {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: inline-block;
+}
+
+#footer p {
+	padding: 1px;
+}
