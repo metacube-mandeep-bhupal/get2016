@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+#div1{
+	margin-top:100px;
+	margin-left:100px;
+	border: solid;
+	height:100px;
+	width:100px;
+	background-color: red;
+	Transition : transform .3s;
+}
+
+#div1:HOVER{
+transform : rotate(180deg);
+}
+#div2{
+	margin-left:400px;
+	border: solid;
+	height:100px;
+	width:100px;
+	background-color: blue;
+	Transition : transform 2s;
+}
+
+#div2:HOVER{
+transform : scale(4,2);
+}
+#div3{
+	margin-left:700px;
+	border: solid;
+	height:100px;
+	width:100px;
+	background-color: green;
+	Transition : transform 2s;
+}
+
+#div3:HOVER{
+transform : skew(50deg,10deg);
+}
+#div4{
+	margin-left:1000px;
+	border: solid;
+	height:100px;
+	width:100px;
+	background-color: gray;
+	Transition : transform 2s;
+}
+
+#div4:HOVER{
+transform : translate(400px, 400px);
+}
