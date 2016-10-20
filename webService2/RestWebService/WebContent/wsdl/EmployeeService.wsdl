@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://restServer" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://restServer" xmlns:intf="http://restServer" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://restServer" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="addEmployee">
+    <complexType>
+     <sequence>
+      <element name="in0" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addEmployeeResponse">
+    <complexType>
+     <sequence>
+      <element name="addEmployeeReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getEmployeeById">
+    <complexType>
+     <sequence>
+      <element name="in0" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getEmployeeByIdResponse">
+    <complexType>
+     <sequence>
+      <element name="getEmployeeByIdReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getAllEmployees">
+    <complexType/>
+   </element>
+   <element name="getAllEmployeesResponse">
+    <complexType>
+     <sequence>
+      <element name="getAllEmployeesReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getEmployeeByName">
+    <complexType>
+     <sequence>
+      <element name="in0" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getEmployeeByNameResponse">
+    <complexType>
+     <sequence>
+      <element name="getEmployeeByNameReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deleteEmployeeById">
+    <complexType>
+     <sequence>
+      <element name="in0" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="deleteEmployeeByIdResponse">
+    <complexType>
+     <sequence>
+      <element name="deleteEmployeeByIdReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getEmployeeByIdRequest">
+
+      <wsdl:part element="impl:getEmployeeById" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getEmployeeByNameResponse">
+
+      <wsdl:part element="impl:getEmployeeByNameResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAllEmployeesResponse">
+
+      <wsdl:part element="impl:getAllEmployeesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getAllEmployeesRequest">
+
+      <wsdl:part element="impl:getAllEmployees" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="deleteEmployeeByIdResponse">
+
+      <wsdl:part element="impl:deleteEmployeeByIdResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addEmployeeRequest">
+
+      <wsdl:part element="impl:addEmployee" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getEmployeeByIdResponse">
+
+      <wsdl:part element="impl:getEmployeeByIdResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="deleteEmployeeByIdRequest">
+
+      <wsdl:part element="impl:deleteEmployeeById" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addEmployeeResponse">
+
+      <wsdl:part element="impl:addEmployeeResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getEmployeeByNameRequest">
+
+      <wsdl:part element="impl:getEmployeeByName" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="EmployeeService">
+
+      <wsdl:operation name="addEmployee">
+
+         <wsdl:input message="impl:addEmployeeRequest" name="addEmployeeRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addEmployeeResponse" name="addEmployeeResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getEmployeeById">
+
+         <wsdl:input message="impl:getEmployeeByIdRequest" name="getEmployeeByIdRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getEmployeeByIdResponse" name="getEmployeeByIdResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getAllEmployees">
+
+         <wsdl:input message="impl:getAllEmployeesRequest" name="getAllEmployeesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getAllEmployeesResponse" name="getAllEmployeesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getEmployeeByName">
+
+         <wsdl:input message="impl:getEmployeeByNameRequest" name="getEmployeeByNameRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getEmployeeByNameResponse" name="getEmployeeByNameResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="deleteEmployeeById">
+
+         <wsdl:input message="impl:deleteEmployeeByIdRequest" name="deleteEmployeeByIdRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:deleteEmployeeByIdResponse" name="deleteEmployeeByIdResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="EmployeeServiceSoapBinding" type="impl:EmployeeService">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="addEmployee">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addEmployeeRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addEmployeeResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getEmployeeById">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getEmployeeByIdRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getEmployeeByIdResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getAllEmployees">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getAllEmployeesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getAllEmployeesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getEmployeeByName">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getEmployeeByNameRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getEmployeeByNameResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="deleteEmployeeById">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="deleteEmployeeByIdRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="deleteEmployeeByIdResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="EmployeeServiceService">
+
+      <wsdl:port binding="impl:EmployeeServiceSoapBinding" name="EmployeeService">
+
+         <wsdlsoap:address location="http://localhost:8080/RestWebService/services/EmployeeService"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
