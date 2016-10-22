@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.jumbotron{
+    background-color:#e37277;
+    color:white;
+    margin-bottom:0%;
+}
+
+.active a{
+    background-color:#e37277;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #e37277;
+}
+
+h3{
+    display:inline-block;
+}
+
+button.btn{
+    outline:none;
+    border-color: #fff;
+ 	border-radius: 50% !important;
+}
+
+.head{
+    color:#e37277;
+    border-bottom:2px solid #e37277;
+    padding-bottom: 1%;
+    
+}
+.box{
+	padding-top: 15%;
+	margin-top: 2%;
+    border-radius:10px;
+}
+
+input{
+    margin: 2% 0;
+    width:100%;
+    border-radius:5px;
+    padding-left:2%;
+}
+textarea{
+    margin: 2% 0;
+    width:100%;
+    border-radius:5px;
+    padding-left:2%;
+    height:200px;
+}
+.button1{
+    background-color:orange;
+    padding:1%;
+    color:white;
+    width:25%;
+    outline:none;
+}
+.button2{
+    background-color:green;
+    padding:1%;
+    color:white;
+    width:27%;
+    outline:none;
+}
+.underPanel{
+    padding:10px;
+    text-align:center;
+    background-color:antiquewhite;
+}
+.fbbutton{
+    background-color:#4267b2;
+    padding:1%;
+    color:white;
+    width:19.5%;
+    outline:none;
+}
+.googlebutton{
+    background-color:#d34836;
+    padding:1%;
+    color:white;
+    width:19.5%;
+    outline:none;
+}
+.twitterbutton{
+    background-color:#1a8bf0;
+    padding:1%;
+    color:white;
+    width:19.5%;
+    outline:none;
+}
+.linkedInbutton{
+    background-color:orange;
+    padding:1%;
+    color:white;
+    width:19.5%;
+    outline:none;
+}
+
+footer{
+    padding:.5%;
+    background-color:#e37277;
+    color:white;
+    
+}
+
+
+
+.jumbotron .btn{
+    height: 50px;
+    width: 50px;
+}
