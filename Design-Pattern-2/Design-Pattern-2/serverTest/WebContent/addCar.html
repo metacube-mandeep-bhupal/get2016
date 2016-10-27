@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Car Bechoo
+		</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header id="header"> Car Detail <br /> </header>
+		<hr />
+		
+		<div id="form_box">
+		<form action="AddCar" method="GET">
+				<div class="form_box_row">
+					<div class="left_field">
+						Company Name:
+					</div>
+					<div class="right_field">
+					<input placeholder="Comapny Name" name="companyName" type="text" required class="inside_input" pattern="[A-Z a-z]{3,}" />
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Model 
+					</div>
+					<div class="right_field"> 
+							<input placeholder="Madel " name="Model" type="text" required class="inside_input" />
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Fuel Capacity(in liters)
+					</div>
+					<div class="right_field">  
+							<input placeholder="Fuel Capacity" name="FuelCapacity" type="number" required class="inside_input"  />
+					</div>
+				</div>
+					<div class="form_box_row">
+					<div class="left_field">
+						Engine In CC
+					</div>
+					<div class="right_field">  
+							<input placeholder="Engine in CC" name="EngineInCC" type="number" required class="inside_input"  />
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Mileage
+					</div>
+					<div class="right_field"> 
+						<input placeholder="Milage" name="milage" type="number" required class="inside_input" />
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Price
+					</div>
+					<div class="right_field">
+							 <input placeholder="Price" name="price" type="number" required class="inside_input" />
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Road Tax
+					</div>
+					<div class="right_field">
+						<input placeholder="Road Tax" name="RoadTax" type="number" required class="inside_input" />
+					</div>
+				</div>
+				
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						AC ?
+					</div>
+					<div class="right_field radio_button" >
+							
+								<input name="AC" value="Yes" type="radio"  class="radio_box" />Yes
+								<input name="AC" type="radio" value="No"  class="radio_box"  /> No
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Power Steering ?
+					</div>
+					<div class="right_field radio_button" >
+							
+								<input value="Yes" name="PowerStreering" type="radio"  class="radio_box" />Yes
+								<input  value="No" name="PowerStreering" type="radio"  class="radio_box" />No
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div class="left_field">
+						Accessory kit ?
+					</div>
+					<div class="right_field radio_button" >
+								<input  name="AccessoryKit" value="Yes" type="radio"  class="radio_box" /> Yes
+								<input  name="AccessoryKit" value ="No" type="radio"  class="radio_box" /> No
+					</div>
+				</div>
+				
+				<div class="form_box_row">
+					<div id="submit_box">
+						<button type="submit" id="submit_field">Send <i class="fa fa-paper-plane" aria-hidden="true"></i> </button>
+					</div>
+				</div>
+				
+				</form>
+				</div>	
+	</body>
+</html>
