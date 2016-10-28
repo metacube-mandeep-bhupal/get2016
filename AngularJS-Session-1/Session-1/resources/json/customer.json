@@ -1,0 +1,92 @@
+[
+  {
+    "firstName": "Rahul",
+	"lastName": "Gupta",
+	"email": "rahul.gupta@gmail.com",
+	"gender": "male",
+    "address": "Dellas, Texas",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Kevin",
+	"lastName": "Peterson",
+	"email": "kevin.peterson@gmail.com",
+	"gender": "male",
+    "address": "Los Angeles, California",
+    "imageUrl": "resources/images/female.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Albert",
+	"lastName": "Einstein",
+	"email": "albert.einstei@gmail.com",
+	"gender": "male",
+    "address": "Seattle, Washington",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Nikhil",
+	"lastName": "Srivastava",
+	"email": "nikhil.srivastava@gmail.com",
+	"gender": "male",
+    "address": "Anaheim, California",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Avinash",
+	"lastName": "Chopra",
+	"email": "avinash.chopra@gmail.com",
+	"gender": "male",
+    "address": "Phoenix, Arizona",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Aditi",
+	"lastName": "Sharma",
+	"email": "aditi.sharma@gmail.com",
+	"gender": "female",
+    "address": "Chandler, Arizona",
+    "imageUrl": "resources/images/female.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Ronak",
+	"lastName": "Mehta",
+	"email": "ronak.mehta@gmail.com",
+	"gender": "male",
+    "address": "Encinitas, California",
+    "imageUrl": "resources/images/female.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Raghvendra",
+	"lastName": "Singh",
+	"email": "raghvendra.singh@gmail.com",
+	"gender": "male",
+    "address": "Seattle, Washington",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Arun",
+	"lastName": "bansal",
+	"email": "arun.bansal@gmail.com",
+	"gender": "male",
+    "address": "Chandler, Arizona",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  },
+  {
+    "firstName": "Ankur",
+	"lastName": "Agarwal",
+	"email": "ankur.agarwal@gmail.com",
+	"gender": "male",
+    "address": "Albuquerque, Arizona",
+    "imageUrl": "resources/images/male.png",
+    "orders": "15"
+  }
+]
